@@ -1,8 +1,7 @@
-@include('partials._nav')
 @extends('main')
 
-
 @section('content')
+@include('partials._nav')
     @if (session('success'))
         <div class="alert alert-success">
             {{ session('success') }}

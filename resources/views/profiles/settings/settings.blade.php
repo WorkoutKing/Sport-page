@@ -1,7 +1,7 @@
-@include('partials._nav')
 @extends('main')
 
 @section('content')
+@include('partials._nav')
     <div class="container">
         @if (session('success'))
             <div class="alert alert-success">

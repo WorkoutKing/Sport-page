@@ -1,7 +1,7 @@
-@include('partials._nav')
 @extends('main')
 
 @section('content')
+@include('partials._nav')
         <div class="profile_content_width">
                 <h1 class="main_heading">ADMIN ZONA</h1>
             <div class="admin-section">

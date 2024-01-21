@@ -1,9 +1,7 @@
-@include('partials._nav')
 @extends('main')
 
-
 @section('content')
-@include('partials._header')
+@include('partials._nav')
 <h1 class="main_heading">Online Users</h1>
 <div class="container">
     <div class="online-users">

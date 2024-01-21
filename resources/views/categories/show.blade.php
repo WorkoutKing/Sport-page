@@ -1,8 +1,7 @@
-@include('partials._nav')
 @extends('main')
 
-
 @section('content')
+@include('partials._nav')
 <h1 class="main_heading">Leaderboard of <i>{{ $category->name }} {{ $category->r_or_s }}</i></h1>
 <div class="container">
   <div class="extra-pos-leaders">

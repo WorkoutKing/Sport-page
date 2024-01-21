@@ -1,7 +1,7 @@
-@include('partials._nav')
 @extends('main')
 
 @section('content')
+@include('partials._nav')
     <div class="container">
         <h1>{{ $user->name }}</h1>
         <p>Email: {{ $user->email }}</p>

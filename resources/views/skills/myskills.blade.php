@@ -14,7 +14,7 @@
         @if ($userSkills->count() > 0)
             @foreach ($userSkills as $skill)
                 <div class="card-ex">
-                    <span class="skill-name">{{ $skill->category->name }}{{ $skill->category->r_or_s }}</span>
+                    <span class="skill-name">{{ $skill->category->name }} {{ $skill->category->r_or_s }}</span>
                     @if($skill->video)
                         <video width="100%" height="auto" controls>
                             <source src="{{ asset('storage/' . $skill->video) }}" type="video/mp4">
